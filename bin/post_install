@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/dreamfactorysoftware/dreamfactory.git  $OPENSHIFT_REPO_DIR/df
+git clone https://github.com/DamonV/df.git  $OPENSHIFT_REPO_DIR/df
 cd $OPENSHIFT_REPO_DIR/df
 composer install --no-dev  --no-interaction
 chmod -R a+w storage
